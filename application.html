@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Enrollment/Correction Form</title>
+    <style>
+        .head{
+            color:white;
+            background-color: red;
+        }
+        .new{
+            color:red;
+        }
+        .greyColor{
+            color:grey;
+        }
+        div{
+            text-align: center;
+            
+        }
+        input[type="submit"]{
+            color:white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+    <table border="0" cellspacing="0" cellpadding="10" width="100%">
+        <tbody>
+            <tr>
+                <td colspan="3">
+                    <img src="pic/ashoka-logo.png" width="20%">
+                    <p align="left">Unique Identification Authority of India</p>
+                     <p class="greyColor">Government of India</p>
+                </td>
+                <td colspan="3">
+                     <img src="pic/Aadhaar_Preview.png" width="30%" align="right">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <p align="center">Under Section 3 of THE AADHAAR (TARGETED DELIVERY OF FINANCIAL AND OTHER SUBSIDIES, BENEFITS AND SERVICES) ACT, 
+                        2016 (Aadhaar Act)</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                   <h1 class="head"> <p align="center">AADHAAR ENROLMENT/ CORRECTION/ UPDATE FORM</p></h1>
+                </td>
+            </tr>
+                <tr>
+                    <td colspan="6">
+                        <em>Aadhaar Enrolment and Mandatory Biometric Update is free. No charges are applicable for Form. In case of Correction/ Update, provide your Aadhaar Number
+                        (UID), Full Name and only that field which needs Correction/ Update.</em>
+                    </td>
+                </tr>
+                 <tr>
+                     <td colspan="3">
+                        <span>
+                         <input type="radio" name="rdNri" value="Resident">Resident
+                        </span>
+                        <span>
+                            <input type="radio" name="rdNri" value="Non-Resident Indian (NRI*)">Non-Resident Indian (NRI*)
+                        </span>
+                     </td>
+                     <td colspan="3">
+                        <em class="new">Please follow the instructions overleaf while filling up the form. Use capital letters only.</em>
+                     </td>
+                 </tr>
+                     <tr>
+                        <td colspan="6">
+                        <table border="1" cellspacing="0" cellpadding="30" width="90%" align="center">
+                            <tbody>
+                               <tr>
+                                <td colspan="=4">1</td>
+                                <td>
+                                    Pre Enrolment ID (If applicable):<br>
+                                    <input text="text" name="id" placeholder="Type your Pre Enrolment ID  ">
+                                </td>
+                                <td>2</td>
+                                <td>In case of Update provide Aadhaar Number (UID):<br>
+                                    <input type="text" name="AadhaarNUm" placeholder="enter your aadhaar number...">
+                                </td>
+                               </tr>
+                               <tr>
+                                  <td>2.1</td>
+                                  <td colspan="4"> 
+                                      <span>
+                                        <input type="checkbox" name="chkUpdate" value="Biometric Update (Photo + Fingerprint + Iris) ">Biometric Update (Photo + Fingerprint + Iris) 
+                                      </span>
+                                      <span>
+                                        <input type="checkbox" name="chkUpdate" value="Mobile">Mobile
+                                      </span>
+                                      <span>
+                                       <input type="checkbox" name="chkUpdate" value="Date of Birth">Date of Birth
+                                      </span>
+                                      <span>
+                                       <input type="checkbox" name="chkUpdate" value="Address">Address
+                                      </span>
+                                      <span>
+                                        <input type="checkbox" name="chkUpdate" value="Name">Name
+                                      </span>
+                                      <span>
+                                        <input type="checkbox" name="chkUpdate" value="Gender">Gender 
+                                      </span>
+                                      <span>
+                                        <input type="checkbox" name="chkUpdate" value="Email">Email
+                                      </span>
+                                 </td>
+                               </tr>
+                               <tr>
+                                 <td>3</td>
+                                 <td colspan="4">
+                                    Full Name:<br>
+                                    <input type="text" name="FullName" placeholder="Enter your nmae...">
+                                </td>
+                               </tr>
+                               <tr>
+                                <td>4</td>
+                                <td>Gender:
+                                    <span>
+                                        <input type="radio" name="rdGender" value="Male">Male
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdGender" value="Female">Female 
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdGender" value="Other">Other
+                                    </span>
+                                </td>
+                                <td>5</td>
+                                <td>
+                                    Age:
+                                     <input type="number" name="Age">Yrs<br>
+                                    or<br>
+                                        Date of birth:
+                                        <input type="date" name="Dob"><br><br>
+                                        <span>
+                                            <input type="radio" name="rdVer" value="Declared">Declared
+                                        </span>
+                                        <span>
+                                            <input type="radio" name="rdVer" value="Verified">Verified
+                                        </span>
+                                </td>
+                               </tr>
+                               <tr>
+                                <td>6</td>
+                                <td colspan="2">
+                                    Address: C/o <br>
+                                    <textarea name="Address" placeholder="Enter your Address.."></textarea><br>
+                                        House No./ Bldg./ Apt:<br>
+                                        <input type="text" name="Houseno" ><br>
+                                        Street/ Road/ Lane:<br>
+                                        <input type="text" name="Street"><br>
+                                        Landmark:<br>
+                                        <input type="text" name="Landmark"><br>
+                                        Area/ Locality/ Sector:<br>
+                                        <input type="text" name="Area"><br>
+                                        Village/ Town/ City:<br> 
+                                        <input type="text" name="Village"><br>
+                                </td>
+                                   <td colspan="2">
+                                        Post Office:<br>
+                                        <input type="text" name="PostOffice"><br>
+                                        District:<br>
+                                        <input type="text" name="District"><br>
+                                        Sub-District:<br>
+                                        <input type="text" name="Sub-District"><br>
+                                        State:<br>
+                                        <input type="text" name="State"><br>
+                                        E-Mail:<br>
+                                        <input type="email" name="email"><br>
+                                        Mobile No.:<br>
+                                        <input type="tel" name="mobile"><br>
+                                        PIN Code:<br>
+                                        <input type="text" name="Pin"><br> 
+                                  </td>
+                               </tr>
+                               <tr>
+                                <td>7</td>
+                                <td colspan="4">
+                                    <span>
+                                        Details of:
+                                    <input type="radio" name="rdDetail" value="Father">Father
+                                    </span>
+                                        <span>
+                                            <input type="radio" name="rdDetail" value="Mother">Mother
+                                        </span>
+                                        <span>
+                                            <input type="radio" name="rdDetail" value="Guardian">Guardian
+                                        </span>
+                                        <span>
+                                            <input type="radio" name="rdDetail" value="Husband">Husband
+                                        </span>
+                                        <span>
+                                            <input type="radio" name="rdDetail" value="Wife">Wife
+                                        </span> <br>
+                                        <em>For children below 5 years Father/Mother/Guardian’s details are mandatory. 
+                                            Adults can opt not to specify this information.</em><br><br>
+                                            Name:<br>
+                                            <input type="text" name="Name"><br>
+                                            EID/ Aadhaar No.:<br>
+                                            <input type="text" name="aadhaarno">
+                                </td>
+                               </tr>
+                               <tr>
+                                <td colspan="4">
+                                    <span>
+                                        Verification Type:
+                                        <input type="radio" name="rdVerTy">Document Based 
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdVerTy">Introducer Based
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdVerTy">Head of Family (HoF) Based
+                                    </span><br>
+                                    <em>Select only one of the above. Select Introducer or Head of Family only if you do not possess any documentary proof of identity 
+                                    and/or address. 
+                                    Introducer and Head of Family details are not required in case of Document based verification.</em>
+                                </td>
+                               </tr>
+                               <tr>
+                                <td>8</td>
+                                <td colspan="4">
+                                    For Document Based:<br>
+                                    <input type="text" name="doc" placeholder="Type Names of the documents ...."><br>
+                                    <em>(Type Names of the documents produced. Refer overleaf of this form for list of valid documents)</em>
+                                   
+                                </td>
+                               </tr>
+                               <tr>
+                                <td colspan="2">
+                                    a.POI<br>
+                                    <input type="file" name="poi-file"><br>
+                                    b.POA<br>
+                                    <input type="file" name="poa-file"><br><br>
+                                </td>
+                                <td colspan="2">
+                                    c.DOB<br>
+                                    <input type="file" name="birth-file"><br>
+                                    <em>(Mandatory in case of Verified Date of Birth)</em><br>
+                                    d.POR<br>
+                                    <input type="file" name="por-file"><br>
+                                     <em>(Mandatory in case of HoF based Enrolment/ Update)</em>
+                                </td>
+                               </tr>
+                               <tr>
+                                <td>9</td>
+                                <td colspan="2">
+                                    <strong>For Introducer Based</strong>– Introducer’s
+                                    Aadhaar No.:<br>
+                                    <input type="text" name="aadhaarnum">
+                                </td>
+                                <td colspan="2">
+                                    <strong>For HoF Based</strong>- Details of :<br>
+                                    <span>
+                                        <input type="radio" name="rdDetail1" value="Father">Father
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdDetail1" value="Mother">Mother
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdDetail1" value="Guardian">Guardian
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdDetail1" value="Husband">Husband
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="rdDetail1" value="Wife">Wife
+                                    </span> <br>
+                                    HoF’s EID/ Aadhaar No.:<br>
+                                    <input type="text" name="HOfaadhaar">
+                                </td>
+                               </tr>
+                               <tr>
+                                <td colspan="2">
+                                    I hereby confirm the identity and address of<input type="text" name="name">as being true, correct and accurate.<br>
+                                    Introducer/ HoF’s Name:<br>
+                                    <input type="text" name="introName">
+                                </td>
+                                    <td colspan="2">
+                                    <span>
+                                        Signature of Introducer/ HoF:<br>
+                                        <input type="file" name="sign">
+                                    </span>
+                                    </td>
+                               </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr> 
+           <tr>
+            <td colspan="6">
+                <strong>Disclosure under section 3(2) of THE AADHAAR (TARGETED DELIVERY OF FINANCIAL AND OTHER SUBSIDIES, BENEFITS AND SERVICES) ACT, 2016</strong><br>
+                I confirm that I have been residing in India for at least 182 days in the preceding 12 months / 
+                I am Non Resident Indian (NRI) & information (including biometrics) provided by me to the UIDAI is my own and is true, correct and accurate.
+                 I am aware that my information including biometrics will be used for generation of Aadhaar and authentication. 
+                I understand that my identity information (except core biometric) may be provided to an agency only with my consent
+                 during authentication or as per the provisions of the Aadhaar Act. I have a right to access my identity information (except core biometrics)
+                  following the procedure laid down by UIDAI.
+            </td>
+           </tr>
+           <tr>
+            <td colspan="3">
+                Verifier’s Stamp and Signature:<br>
+                <input type="file" name="VerSign"><br>
+                (Verifier must put his/ her Name, if stamp is not available)<br>
+                <input type="text" name="VerName">
+            </td>
+            <td colspan="3">
+                Applicant’s signature/ Thumbprint:<br>
+                <input type="file" name="appSign"><br>
+                Date & time of Enrolment:<br>
+                <input type="datetime-local" name="dateandtime">
+            </td>
+           </tr>
+        <tr>
+            <td colspan="6">
+                <em>Note: In case of minor, the signature will be done by parent/guardian. In case of incapacitated person, 
+                    the signature will be done by Legal Guardian of Incapacitated Person
+                    * In case of NRI, only Indian Passport will be valid as POI.
+                    </em>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <input type="checkbox" name="chkdec" value="yes" required>
+                I solemnly declare the information mentioned herein is true and correct to the best of my beliefs.
+                 All the details provided above are genuine to the best of my belief and knowledge. 
+                 I hereby declare that the above particulars of facts and information stated are correct to the best of my belief and knowledge.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <div>
+                <input type="submit" name="sumbit" value="Submit">
+             </div>
+            </td>
+        </tr>
+            </tbody>
+        </table>
+</form>
+</body>
+</html>
